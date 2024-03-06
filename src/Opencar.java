@@ -75,8 +75,7 @@ static {
         System.out.print("Escolha uma opção: ");
     }
     private static void cadastrarUsuario() {
-        Scanner scanner = new Scanner(System.in);
-    
+        
         System.out.print("Digite o nome do usuário: ");
         String nome = scanner.nextLine();
     
@@ -112,8 +111,7 @@ static {
     }
 
     private static void escolherCarroEfazerReserva() {
-        Scanner scanner = new Scanner(System.in);
-    
+            
         System.out.print("Digite o nome do usuário: ");
         String nomeUsuario = scanner.nextLine();
     
